@@ -1,26 +1,34 @@
 # EX 14 C program to delete first element in an array.
-## DATE:
+
 ## AIM:
 To write a C program to delete first element in an array.
 
-## Algorithm
-1. 
-2. 
-3. 
-4.  
-5.   
+## ALGORITHM:
+1. Start.
+2. Define a variables i,j,a.
+3. Read the value using scanf.
+4. Ask the user to make an input
+5. Print out the answer
+6. End.
 
-## Program:
-```
-/*
-Program to delete first element in an array.
-Developed by: 
-RegisterNumber:  
-*/
+## PROGRAM:
+```c
+#include<stdio.h> 
+int main()
+{
+int i,n,a[10];
+scanf("%d",&n); 
+for(i=0;i<n;i++)
+{
+scanf("%d",&a[i]);
+}
+for(i=1;i<n;i++) 
+printf("%d ",a[i]);
+}
 ```
 
 ## Output:
-
+![image](https://github.com/user-attachments/assets/93c9c7cc-22ab-4b09-9f69-d1cc3ba92d95)
 
 
 ## Result:
